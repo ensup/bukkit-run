@@ -5,7 +5,7 @@ int main(void){
     printf("2. 1GB\n");
     printf("3. 1GB~4GB\n");
     printf("4. 2GB~8GB\n");
-    printf("램을 선택해 주세요:");
+    printf("Please select Ram:");
     int ram = getchar();
     switch (ram)
     {
@@ -22,7 +22,7 @@ int main(void){
         system("java -Xms2GB -Xmx8GB -jar server.jar");
         break;
     default:
-        printf("숫자로 정확히 입력해 주세요\n");
+        printf("Please type correctly\n");
         break;
     }
     
