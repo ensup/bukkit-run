@@ -14,13 +14,13 @@ int main(void){
         break;
     case 2:
         system("java -Xms1GB -Xmx1GB -jar server.jar");
-        break
+        break;
     case 3:
         system("java -Xms1GB -Xmx4GB -jar server.jar");
-        break
+        break;
     case 4:
         system("java -Xms2GB -Xmx8GB -jar server.jar");
-        break
+        break;
     default:
         printf("숫자로 정확히 입력해 주세요\n");
         break;
