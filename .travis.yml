@@ -1,1 +1,2 @@
 language: C
+after_script:  ./a.out
