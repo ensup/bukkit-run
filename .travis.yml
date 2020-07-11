@@ -1,3 +1,2 @@
 language: C
 script: "gcc main.c"
-after_script:  ./a.out
